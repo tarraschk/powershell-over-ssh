@@ -2,7 +2,7 @@
 
 This repo contains recommendations to enable PowerShell over SSH (requires PowerShell 7 on the server).
 
-The enable_ssh.ps1 script performs all operations and configurations, except PowerShell 7 installation.
+The `enable_powershell_over_ssh.ps1` script performs all operations and configurations, except PowerShell 7 installation.
 
 ## Scripted approach
 
