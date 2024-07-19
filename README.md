@@ -9,7 +9,12 @@ The enable_ssh.ps1 script performs all operations and configurations, except Pow
 Run in PowerShell, as an admin user:
 
 ```ps1
-.\enable_ssh.ps1
+# Download the script
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/tarraschk/powershell-over-ssh/main/enable_powershell_over_ssh.ps1' -OutFile 'enable_powersh
+ell_over_ssh.ps1'
+
+# Run the script
+.\enable_powershell_over_ssh.ps1
 ```
 
 ##  Manual approach
